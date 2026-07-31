@@ -1,12 +1,24 @@
 * {
     box-sizing: border-box;
-    padding: 0;
+    padding: 1vw;
     margin: 0;
+}
+
+h1 {
+    text-align: center;
 }
 
 
 h2 {
-    font-size: clamp(10px, 5rem, 100px);
+    font-size: clamp(5px, 3rem, 50px);
+}
+
+h3 {
+    font-size: clamp(10px, 1.5rem, 30px);
+}
+
+#count-text {
+    font-size: clamp(5px, 5rem, 150px);
 }
 
 #content-box, #button-box {
@@ -19,20 +31,37 @@ h2 {
     align-items: center;
 }
 
+#content-box {
+    width: auto;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+
+
+#button-table {
+    display:  flex;
+    flex-direction: row;
+
+    justify-content: space-evenly;
+}
+
 #button-box {
      flex-direction: row;
 }
 
 button {
     color: aliceblue;
+    border: 3px solid rgb(37, 37, 37);
 
     padding: clamp(10px, 2vw, 20px);
     border-radius: 15px;
-    background-color: rgb(53, 113, 165);
+    background-color: rgb(54, 59, 63);
 
     transition: all 1s ease;
 }
 
 button:hover {
-    background-color: rgb(19, 70, 116);
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+    
 }
