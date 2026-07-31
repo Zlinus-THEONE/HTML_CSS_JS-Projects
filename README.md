@@ -7,6 +7,8 @@
 ___________________________________
 project-folder -> index.html -> style.css -> script.js -> assets folder
 
+
+
 📌 Future Improvements
 ___________________________________
 - Improve responsiveness
