@@ -3,13 +3,13 @@
 3. and improve my understanding of responsive design, styling, and interactivity.
 
 
-📁 Project Structure
+**📁 Project Structure**
 ___________________________________
 project-folder -> index.html -> style.css -> script.js -> assets folder
 
 
 
-📌 Future Improvements
+**📌 Future Improvements**
 ___________________________________
 - Improve responsiveness
 - Add more animations and transitions
