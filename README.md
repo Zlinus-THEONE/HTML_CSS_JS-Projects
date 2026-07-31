@@ -1,3 +1,4 @@
+________________________________________________
 📄 Things to know
 
 1. To check a project, get on a certain folder then click the corresponding files to open the code:
@@ -12,7 +13,7 @@
 3. Enhance accessibility
 4. Optimize performance
 5. Add additional features
-
+________________________________________________
 
 
 # Counter Progam
