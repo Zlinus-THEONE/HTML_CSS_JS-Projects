@@ -13,8 +13,6 @@
 4. Optimize performance
 5. Add additional features
 
-This project is part of my journey in learning web development. 
-It focuses on applying core concepts of HTML, CSS, and JavaScript through hands-on practice.
 
 
 # Counter Progam
