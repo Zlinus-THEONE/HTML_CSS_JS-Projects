@@ -1,13 +1,9 @@
 📄 Things to know
 
-1. To check a project, get on a certain folder then click the corresponding files to open the code: index.html, style.css, script.js.
-2. Every project in this repository can be updated if need improving.
-3. Use the code responsibly.
-
-🎯 Purpose
-
-  This project is part of my journey in learning web development. 
-  It focuses on applying core concepts of HTML, CSS, and JavaScript through hands-on practice.
+1. To check a project, get on a certain folder then click the corresponding files to open the code:
+   index.html, style.css, script.js.
+3. Every project in this repository can be updated if need improving.
+4. Use the code responsibly.
 
 📌 Future Improvements
 
@@ -16,6 +12,9 @@
 3. Enhance accessibility
 4. Optimize performance
 5. Add additional features
+
+This project is part of my journey in learning web development. 
+It focuses on applying core concepts of HTML, CSS, and JavaScript through hands-on practice.
 
 
 # Counter Progam
