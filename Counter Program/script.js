@@ -13,6 +13,8 @@ buttonsTable.forEach((button) => {
       number *= 2;
     } else if (button.value == "d2") {
       number /= 2;
+    } else if (button.value == "^2") {
+      number **= 2;
     } else if (button.value == "random") {
       number = Math.floor(Math.random() * 10000) + 1;
     } else if (button.value == "abs") {
