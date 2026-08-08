@@ -19,8 +19,20 @@ ________________________________________________
 # Counter Progam
 ________________________________________________
 This programs gives a user a value that they may interact with
+
 - Can increase and decrease the value
 - Can reset the value up to zero
 - Tells if the value is even or odd
 ________________________________________________
 
+
+# Number Guessing Game
+________________________________________________
+This program lets a user guess a randomly generated number within a chosen range.
+
+Can choose a minimum and maximum number
+Gives hints if the guess is too high or too low
+Gives the player 5 lives
+Plays sound effects for interactions, winning, and losing
+Displays the correct number when the game ends
+________________________________________________
