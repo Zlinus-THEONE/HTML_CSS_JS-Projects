@@ -75,7 +75,6 @@ function PlayManager() {
     } else if (minumum > maximum) {
       ErrorHandler("the minumum is greater than the maximum number");
       return;
-    } 
     } else if (maximum === 0 || minumum === 0) {
       minumum = 1;
       maximum = 10;
