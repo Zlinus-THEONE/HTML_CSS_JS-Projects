@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*--------------------- GENERAL */
+body {
+    color: aliceblue;
+    background-color: rgb(21, 64, 105);
+    text-align: center;
+    justify-items: center;
+}
+
+input, button {
+    color: aliceblue;
+    background-color: rgb(9, 41, 70);
+    border: 1px solid rgb(65, 146, 194);
+    border-radius: 20px;
+
+    text-align: center;
+
+    transition: all 1s ease;
+}
+
+input:hover, button:hover {
+      background-color: rgb(3, 26, 48);
+}
+
+input {
+    width: clamp(120px, 15vw, 400px);
+    height: clamp(30px, 7vh, 70px);
+    font-size: clamp(10px, 1.3rem, 100px);
+}
+
+button {
+    width: clamp(100px, 13vw, 300px);
+    height: clamp(25px, 5vh, 65px); 
+    font-size: clamp(5px, 1rem, 90px)
+}
+
+
+/*--------------------- TEXTS */
+h1 {
+    font-size: clamp(30px, 3rem, 130px);
+}
+
+#robot-emoji {
+    font-size: clamp(50px, 15rem, 400px);
+}
+
+
+/*--------------------- ELEMENTS */
+#title-box {
+    background-color: rgb(32, 97, 158);
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+#content-box, #selection-box, #play-box {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#content-box {
+    flex-direction: column;
+}
+
+#selection-box {
+    flex-direction: row;
+    
+}
+
+#play-box {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#answer-input {
+      width: clamp(250px, 30vw, 700px);
+      background-color: aliceblue;
+      border: 4px solid rgb(3, 26, 48);
+      color: black;
+}

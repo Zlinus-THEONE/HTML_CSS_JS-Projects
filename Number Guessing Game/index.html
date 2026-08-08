@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number!</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="title-box">
+      <h1>Welcome!</h1>
+      <h2>Guess the number between</h2>
+    </div>
+    <br />
+
+    <div id="content-box">
+      <div id="selection-box">
+        <div>
+          <label for="minumum">Minumum</label> <br />
+          <input id="minumum" class="input" type="text" placeholder="1" />
+        </div>
+        <h3>to</h3>
+        <div>
+          <label for="minumum">Maximum</label> <br />
+          <input id="minumum" class="input" type="text" placeholder="10" />
+        </div>
+
+        <div>
+          <label for="">________</label> <br />
+          <button id="play-button">PLAY</button>
+        </div>
+      </div>
+
+      <div id="play-box">
+        <h2 id="robot-emoji">🤖</h2>
+        <br />
+
+        <div id="robot-box">
+          <h2>Bob ( The Robot ):</h2>
+          <h3 id="robot-text">Hello World!</h3>
+        </div>
+        <br />
+
+        <div id="user-box">
+          <input
+            id="answer-input"
+            class="input"
+            type="text"
+            placeholder="Enter text here..."
+          />
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+
+    <h2 id="outcome-text"></h2>
+
+    <script src="script.js"></script>
+  </body>
+</html>
