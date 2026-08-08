@@ -30,9 +30,9 @@ ________________________________________________
 ________________________________________________
 This program lets a user guess a randomly generated number within a chosen range.
 
-Can choose a minimum and maximum number
-Gives hints if the guess is too high or too low
-Gives the player 5 lives
-Plays sound effects for interactions, winning, and losing
-Displays the correct number when the game ends
+- Can choose a minimum and maximum number
+- Gives hints if the guess is too high or too low
+- Gives the player 5 lives
+- Plays sound effects for interactions, winning, and losing
+- Displays the correct number when the game ends
 ________________________________________________
