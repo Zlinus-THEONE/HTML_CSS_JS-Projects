@@ -36,3 +36,15 @@ This program lets a user guess a randomly generated number within a chosen range
 - Plays sound effects for interactions, winning, and losing
 - Displays the correct number when the game ends
 ________________________________________________
+
+
+# Temperature Converter
+________________________________________________
+This program allows a user to convert temperatures between different units.
+
+- Can convert between Celsius, Fahrenheit, and Kelvin
+- Automatically updates the result when the input changes
+- Allows users to select the input and output temperature units
+- Prevents both temperature selections from being the same
+- Rounds the result to 3 decimal places
+________________________________________________
