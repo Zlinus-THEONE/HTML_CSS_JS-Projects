@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convert Temperatures!</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="content-div">
+      <h1>Tempeture Conversion</h1>
+
+      <div id="input-div">
+        <div class="input-box">
+          <h2 id="symbol1-h2">°C</h2>
+          <input placeholder="0" type="number" id="temperature-input" />
+        </div>
+
+        <div><h2>=</h2></div>
+
+        <div class="input-box">
+          <h2 id="symbol2-h2">°F</h2>
+          <div id="result-box"><h2 id="result-h2">32</h2></div>
+        </div>
+      </div>
+
+      <br />
+
+      <div id="selection-div">
+        <select
+          name="Type-of-Temperatures1"
+          class="Types-of-Temps"
+          id="Type-of-Temperatures1"
+        >
+          <option value="C">Celsius (°C)</option>
+          <option value="F">Fahrenheit (°F)</option>
+          <option value="K">Kelvin (°K)</option>
+        </select>
+
+        <h2><span>&#8594;</span></h2>
+
+        <select
+          name="Type-of-Temperatures2"
+          class="Types-of-Temps"
+          id="Type-of-Temperatures2"
+        >
+          <option value="C">Celsius (°C)</option>
+          <option value="F">Fahrenheit (°F)</option>
+          <option value="K">Kelvin (°K)</option>
+        </select>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
