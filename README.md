@@ -50,12 +50,14 @@ This program allows a user to convert temperatures between different units.
 ________________________________________________
 
 
-# Counter Progam
-________________________________________________
-This programs gives a user a value that they may interact with
-
-- Can increase and decrease the value
-- Can reset the value up to zero
-- Tells if the value is even or odd
+# Dice Table
 ________________________________________________
 
+This program allows users to interact with a virtual dice table and generate random dice values.
+
+- Can add and remove dice (up to 6 dice)
+- Can generate random values for all active dice
+- Automatically calculates the total value of all dice
+- Displays the corresponding dice images based on generated values
+
+________________________________________________
