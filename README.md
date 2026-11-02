@@ -48,3 +48,14 @@ This program allows a user to convert temperatures between different units.
 - Prevents both temperature selections from being the same
 - Rounds the result to 3 decimal places
 ________________________________________________
+
+
+# Counter Progam
+________________________________________________
+This programs gives a user a value that they may interact with
+
+- Can increase and decrease the value
+- Can reset the value up to zero
+- Tells if the value is even or odd
+________________________________________________
+
