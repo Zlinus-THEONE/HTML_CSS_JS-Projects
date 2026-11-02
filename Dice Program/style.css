@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(45, 88, 95);
+    color: aliceblue;
+
+    padding: 20px;
+    font-family: "Goldman";
+
+    text-align: center;
+    justify-items: center;
+}
+
+img {
+    width: clamp(90px, 10vw, 300px);
+    border-radius: 14px;
+    display: none;
+}
+
+button {
+    color: aliceblue;
+    font-family: "Goldman";
+
+    width: clamp(190px, 10vw, 250px);
+    background-color: rgb(71, 69, 68);
+
+    border: 3px solid rgb(104, 95, 85);
+    padding: 10px;
+    border-radius: 15px;
+
+    transition: background-color 1s ease;
+}
+
+button:hover {
+    background-color: rgba(71, 69, 68, 0.082);
+    cursor: pointer;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  
+    
+}
+
+
+#content-box {
+    flex-direction: row;
+    margin: 10px;
+    background-color: rgb(114, 79, 40);
+    box-shadow: 3px 3px 3px black;
+    
+    background-image: url(Assets/wood.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+   
+}
+
+#dice-circle-forH2 {
+    width:70px;
+    height:70px;
+    border-radius: 100%;
+    background-color: rgb(104, 95, 85);
+}
+
+#user-input-box {
+    min-width: 300px;
+    flex-direction: column;
+    background-color: rgb(48, 45, 41);
+    box-shadow: inset 3px 3px 3px black;
+}
+
+#dice-img-box {
+    min-width: 300px;
+    max-width:  40vw;
+    background-color: rgb(53, 34, 13);
+    box-shadow: inset 3px 3px 3px black;
+}
+
+
+#Generate-dice-but{
+    background-color: rgb(53, 42, 31);
+}
+
+#dice-number-one {
+    display: block;
+}
